@@ -1,3 +1,3 @@
 """
-API de los 25 departamentos del Perú.
+API de los 24 departamentos del Perú.
 """

@@ -218,14 +218,14 @@ class Departamento:
 
     def search(self, name):
         """
-        search("name")
+        search("[name]")
 
-        name: argument of name departament's
+        - name: argument of name departament's
 
-        Results: Departamento, Ubigeo, Población, Superficie (km²),
+        - Results: Departamento, Ubigeo, Población, Superficie (km²),
         Capital, Número de provincias, Provincias
 
-        Example:
+        - Example:
         search("Lima")
 
         """
@@ -240,4 +240,4 @@ class Departamento:
                 print("Número de provincias:", details["provincias"])
                 print("Provincias:", ", ".join(details["provincias_lista"]))
                 return
-        print("No existe")
+        print(f"No existe el departamento '{departament}'")
