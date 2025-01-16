@@ -7,13 +7,12 @@ Paquete básico de los 24 departamentos del Perú
 2. Asegúrese de tener el comando pip en el path de su ordenador.
 3. Abra su terminal favorito y escriba el siguiente codigo:
    `pip install apiperu`
-4. Listo, eso es todo.
 
 ## Ejemplo
 
 **Código**
 
-```
+```python
 from apiperu import departamentos
 var = departamentos.Departamento()
 var.search("Lima")
@@ -21,7 +20,7 @@ var.search("Lima")
 
 **Resultado**
 
-```
+```bash
 Departamento: Lima
 Ubigeo: 15
 Población: 11128658
